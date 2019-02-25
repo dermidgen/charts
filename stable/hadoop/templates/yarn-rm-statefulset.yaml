@@ -49,6 +49,10 @@ spec:
         ports:
         - containerPort: 8088
           name: web
+        - containerPort: 8032
+          name: rm
+        - containerPort: 8030
+          name: scheduler
         command:
            - "/bin/bash"
            - "/tmp/hadoop-config/bootstrap.sh"
