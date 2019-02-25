@@ -433,6 +433,10 @@ data:
         <name>yarn.timeline-service.bind-host</name>
         <value>0.0.0.0</value>
       </property>
+      <property>
+        <name>yarn.web-proxy.address</name>
+        <value>0.0.0.0</value>
+      </property>
       <!-- /Bind to all interfaces -->
 
       <property>
